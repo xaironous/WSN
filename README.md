@@ -28,9 +28,13 @@ This project implements a **Wireless Sensor Network (WSN)** using **ESP-NOW** to
 
 ## 🔄 System Workflow
 1️⃣ **ESP32 wakes up from deep sleep.**
+
 2️⃣ **Reads data** from **DHT11** (temperature & humidity) and soil moisture sensor.
+
 3️⃣ **Transmits data** using **ESP-NOW** to the receiver ESP32.
+
 4️⃣ **Deep sleep is activated**, optimizing power consumption.
+
 5️⃣ **Repeats every 10 minutes**, synchronized via **NTP time server**.
 
 ---
